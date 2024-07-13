@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel Agency Landing Page UI</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <a href="#">Logo</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#hotels">Hotels</a></li>
+        <li><a href="#flights">Flights</a></li>
+        <li><a href="#bookings">Bookings</a></li>
+        <li><a href="#login">Login</a></li>
+        <div class="sign_up">
+            <button class="sign">Sign up</button>
+          </div>
+      </ul>
+      <select id="languageSwitcher">
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+    </select>
+    </nav>
+    <header class="section__container header__container" id="home">
+        <div class="header__content">
+            <div class="small_section">
+                <h4>BEST DESTINATIONS AROUND THE WORLD</h4>
+            </div>
+            <h1>Travel, enjoy<br> and live a new<br> and full life.</h1>
+            <p class="section__description">
+                Built Wicket longer admire do barton vanity itself do in it.<br>
+                Preferred to sportsmen it engrossed listening. Park gate<br>
+                sell they west hard for the.
+            </p>
+            <div class="button-container">
+                <div class="header__btn">
+                    <button class="btn">Find out more</button>
+                </div>
+                <div class="header__btn__play">
+                    <button class="btn_play">
+                        <img src="assets/play.png" alt="play" class="playy"> Play Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header__image">
+            <img src="assets/travel-1.png" alt="header" />
+        </div>
+    </header>
+    
+
+    <section class="special__header">
+             <h2 class="section__header">
+            <p Class="section__description">Category
+            </p>We Offer Best Services
+        </h2>
+    </section>
+    
+    <section class="section__container special__container" id="special">
+      
+        <div class="special__grid">
+           
+            <div class="special__card">
+                <img src="assets/weather.png" alt="special" />
+                <h4>Calculated Weather</h4>
+                <p>
+                    Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+            </div>
+            <div class="special__card">
+                <img src="assets/plane.png" alt="special" />
+                <h4>Best Flights</h4>
+                <p>
+                    Engrossed listening. Park gate seel they west hard for the.
+                </p>
+            </div>
+            <div class="special__card">
+                <img src="assets/local-events.png" alt="special" />
+                <h4>Local Events </h4>
+                <p>
+                    Barton vanity itself do in it. Preferred to men it engrossed 
+                    listening
+                </p>
+            </div>
+            <div class="special__card">
+                <img src="assets/customization.png" alt="special" />
+                <h4>Customization</h4>
+                <p>
+                    We deliver outsourced aviation services for military customers.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="section__container explore__container">
+      <div class="explore__content">
+       
+        <h2 class="section__header"> <p class="section__description">Top Selling</p>Top Destinations</h2>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+        <div class="banner__card">
+            <img src="assets/Rome,Italy.jpg" alt="Rome, Italy" />
+            <div class="banner__info">
+                <h4>Rome, Italy</h4> 
+                <p>$5.42k</p>
+               
+            </div>
+            <p class="trip-info">
+                <i class="ri-map-pin-line"></i> 10 Days Trip
+            </p>
+        </div>
+    
+        <div class="banner__card">
+            <img src="assets/London,Uk.jpeg" alt="London, UK" />
+            <div class="banner__info">
+                <h4>London, UK </h4>
+                <p>$4.2k</p>
+            </div>
+            <p class="trip-info">
+                <i class="ri-map-pin-line"></i> 12 Days Trip
+            </p>
+        </div>
+    
+        <div class="banner__card">
+            <img src="assets/Europe.jpg" alt="Full Europe" />
+            <div class="banner__info">
+                <h4>Full Europe</h4>
+                <p>$15k</p>
+            </div>
+            <p class="trip-info">
+                <i class="ri-map-pin-line"></i> 28 Days Trip
+            </p>
+        </div>
+    </section>
+
+    <section class="trip" id="trip">
+        <div class="section__container trip__container">
+            <div class="trip__content">
+                <p class="section__description">Easy and Fast</p>
+                <h2 class="section__header">Book Your Next Trip <br> In 3 Easy Steps</h2>
+                <ul class="trip__list">
+                    <li>
+                        <div class="icon-wrapper">
+                            <img src="assets/destination.png" alt="Destination Icon" class="icon">
+                        </div>
+                        <div>
+                            <h4>Choose Destination</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-wrapper">
+                            <img src="assets/payment.png" alt="Payment Icon" class="icon">
+                        </div>
+                        <div>
+                            <h4>Make Payment</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-wrapper">
+                            <img src="assets/airport.png" alt="Airport Icon" class="icon">
+                        </div>
+                        <div>
+                            <h4>Reach Airport on Selected Date</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="trip__image">
+                <div class="trip-card">
+                    <img src="assets/greece.jpeg" alt="Trip to Greece" />
+                    <div class="trip-card__info">
+                        <h4>Trip To Greece</h4>
+                        <p>14-29 June | by Robbin J</p>
+                        <i class="fas fa-leaf" style="margin-right: 20px;"></i>
+                        <i class="fas fa-map" style="margin-right: 20px;"></i>
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                     <div class="trip-card__footer">
+                            <span><i class="ri-user-line"></i> 24 people going
+                                <i class="far fa-heart"></i></span>
+                        </div>
+                </div>
+                <div class="small-card">
+                    <div class="ongoing-badge">
+                        <img src="assets/rome.jpg" alt="Trip to Rome" width="50" height="20"/>
+                        <div class="small-card-content">
+                            <p>Ongoing</p>
+                            <h4>Trip to Rome</h4>
+                            <p>40% completed</p>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+
+   <section class="testimonials" id="testimonials">
+    <div class="section__container">
+        <div class="testimonials__header">
+            <p class="section__description">Testimonials</p>
+            <h2 class="section__header">What People Say <br> About Us.</h2>
+            <div class="testimonial__dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                 <span class="dot"></span>
+            </div>
+        </div>
+        <div class="testimonial__card">
+            <div class="testimonial__profile">
+                <img src="assets/user.jpg" alt="User Profile" class="testimonial__image">
+               
+            </div>
+            
+            <div class="testimonial__info">
+                <p class="testimonial__text">
+                    "On the Windows talking painted pasture yet its express parties use.
+                    Sure last upon he same as knew next. Of believed or diverted no."
+                </p>
+                <h4>Mike Taylor</h4>
+                <p>Lahore, Pakistan</p>
+            </div>
+            
+        </div>
+      
+    </div>
+</section>
+
+<section class="logo-section">
+    <div class="logo-container">
+        <img src="assets/axon.jpg" alt="Axon">
+        <img src="assets/jetstar.png" alt="Jetstar">
+        <img src="assets/expedia.png" alt="Expedia">
+        <img src="assets/qantas.png" alt="Qantas">
+        <img src="assets/alitalia.png" alt="Alitalia">
+    </div>
+</section>
+
+<section class="subscribe-section">
+    <div class="subscribe-container">
+        <p class="subscribe-title">Subscribe to get information, latest news and other interesting offers about Jadoo</p>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Your email" class="subscribe-input">
+            <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+    </div>
+    <div class="subscribe-icon">
+        <img src="assets/arrow.png" alt="Subscribe Icon">
+    </div>
+</section>
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#">Logo</a>
+          </div>
+          <p class="section__description">
+            Book your trip in minute, get full <br>
+            Control for much longer.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Mobile</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links">
+            <li><a href="#">Help/FAQ</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Affliates</a></li>
+        
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>More</h4>
+          <ul class="footer__links">
+            <li><a href="#">Airlinefees</a></li>
+            <li><a href="#">Airline</a></li>
+            <li><a href="#">Low fare tips</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
